@@ -10,8 +10,8 @@ android {
         applicationId 'pe.gob.hbc.calculadora'
         minSdk 26
         targetSdk 35
-        versionCode 1
-        versionName '2.3-mobile-test'
+        versionCode 2
+        versionName '2.3-mobile-test-icon'
     }
 
     buildTypes {
@@ -29,4 +29,3 @@ android {
         targetCompatibility JavaVersion.VERSION_17
     }
 }
-

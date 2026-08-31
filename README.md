@@ -1,6 +1,6 @@
-# Calculadora HBC Mobile v2.4 Cloud
+# Calculadora HBC Mobile v2.5 Cloud
 
-APK Android de la Calculadora HBC con la misma lógica de cálculo v2.3 y una sola carpeta compartida en Google Drive.
+APK Android de la Calculadora HBC con las reglas preexistentes de cálculo, una sola carpeta compartida en Google Drive y la entidad 2521: COOP. DE AHORRO Y CREDITO INCLUSIVA (INCLUSIVA).
 
 ## Uso
 

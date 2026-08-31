@@ -1,12 +1,15 @@
-# Calculadora HBC Mobile v2.3 - APK de prueba
+# Calculadora HBC Mobile v2.4 Cloud
 
-Proyecto Android que encapsula la Calculadora HBC Mobile v2.3 en un WebView local/offline.
+APK Android de la Calculadora HBC con la misma lógica de cálculo v2.3 y una sola carpeta compartida en Google Drive.
 
-## Objetivo de esta prueba
-- Instalar la calculadora como APK en Android.
-- Abrir DATOSPLH/CAFAE/PRN/TXT/JSON mediante el selector de archivos de Android.
-- Mantener almacenamiento local de la aplicación.
-- Exportar historial y backups JSON a `Descargas/Calculadora HBC`.
-- Conservar las reglas de cálculo de la versión móvil v2.3.
+## Uso
 
-La sincronización automática con Google Drive se incorporará después de validar esta APK de prueba.
+1. Instale la APK y elija **Vincular carpeta CALCULADORA HBC**.
+2. En el selector de Android, seleccione exactamente la carpeta `CALCULADORA HBC` de Google Drive y permita lectura/escritura.
+3. La aplicación detecta automáticamente:
+   - `DATA PLH/CAS` y `DATA PLH/NOMBRADOS`.
+   - `DATA BANCOS`, usando el último periodo con PRN/TXT válidos.
+   - `DATA CAFAE - EXCEL`, usando el último periodo válido disponible.
+   - `DATA PRESTAMOS/operaciones_remuneraciones.json`.
+
+Las aprobaciones y anulaciones se fusionan con el historial compartido antes de guardarse. El teléfono conserva una caché local para consulta; borrar esa caché nunca elimina datos de Drive. PDF, Excel y reportes siguen siendo funciones de la versión PC y se guardan localmente allí.

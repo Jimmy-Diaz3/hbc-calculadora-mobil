@@ -10,8 +10,8 @@ android {
         applicationId 'pe.gob.hbc.calculadora'
         minSdk 26
         targetSdk 35
-        versionCode 5
-        versionName '2.5-cloud'
+        versionCode 6
+        versionName '2.6-cloud'
     }
 
     buildTypes {
